@@ -1,0 +1,153 @@
+name: New Residential Investment Corp (Rithm Capital)
+description: |
+  New Residential Investment Corp (NYSE: NRZ) was a mortgage real estate investment
+  trust (REIT) that **rebranded as Rithm Capital Corp (NYSE: RITM) in August 2022**
+  to reflect its evolution from a pure mortgage REIT into a diversified global asset
+  manager focused on real estate, credit, and financial services. Rithm Capital is
+  headquartered in New York City, led by Chairman & CEO Michael Nierenberg, and as
+  of 2024 reported approximately $46 billion in assets under management, ~$5.2
+  billion in revenue, and ~6,045 employees across its operating businesses
+  (Newrez mortgage origination/servicing, Genesis Capital business-purpose lending,
+  Sculptor Capital Management alternatives platform, Rithm Property Trust REIT
+  [formerly Great Ajax], Adoor single-family rental, Crestline credit, and
+  Elecor Properties [formerly Paramount Group] office real estate).
+
+  This profile carries forward the legacy `new-residential-investment` repo
+  identity under the API Evangelist network. The active corporate identity, public
+  filings, and investor communications are at rithmcap.com.
+
+  Rithm Capital and its subsidiaries operate as financial-services businesses
+  serving institutional investors, mortgage borrowers, and real-estate sponsors.
+  None of the public-facing Rithm Capital, Newrez, Genesis Capital, Sculptor,
+  Rithm Property Trust, Adoor, Crestline, or Elecor Properties websites expose
+  a public developer portal, OpenAPI specification, REST/GraphQL API, SDK, CLI,
+  webhook system, status page, or RSS feed. There are no public GitHub
+  organizations of substance for any of the brand surfaces (the `newrez` GitHub
+  org exists with zero public repositories; `rithmcap` does not exist). Integration
+  with these businesses occurs through traditional B2B mortgage / capital-markets
+  channels, not a public API surface.
+
+image: https://avatars.githubusercontent.com/u/api-evangelist
+created: 2025-05-05
+modified: 2026-05-23
+url: https://kinlane.github.io/new-residential-investment/apis.yml
+specificationVersion: "0.20"
+
+tags:
+  - Mortgage REIT
+  - Real Estate Investment Trust
+  - Asset Management
+  - Mortgage Origination
+  - Mortgage Servicing
+  - Alternative Investments
+  - Hedge Funds
+  - Private Credit
+  - Commercial Real Estate
+  - Single-Family Rental
+  - Financial Services
+  - Fortune 1000
+
+apis: []
+
+common:
+  - type: Website
+    url: https://www.rithmcap.com
+  - type: LegacyWebsite
+    url: https://www.newresi.com
+  - type: SECFilings
+    url: https://www.rithmcap.com/investors/sec-filings/default.aspx
+  - type: InvestorRelations
+    url: https://www.rithmcap.com/investors/default.aspx
+  - type: PressReleases
+    url: https://www.rithmcap.com/investors/news-events/press-releases/default.aspx
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rithm-capital/
+
+x-corporate-history:
+  legalName: Rithm Capital Corp
+  formerName: New Residential Investment Corp
+  ticker: NYSE:RITM
+  formerTicker: NYSE:NRZ
+  rebrandDate: 2022-08-01
+  rebrandRationale: |
+    Reflect transition from a mortgage REIT externally managed by Fortress
+    Investment Group into an internally-managed, diversified global asset
+    manager. Internalization of management and the rebrand to "Rithm Capital"
+    was announced on June 17, 2022; the NYSE ticker change from NRZ to RITM
+    took effect August 1, 2022.
+  founded: 2013
+  founderEntity: Spun out of Newcastle Investment Corp (Fortress)
+  headquarters: 799 Broadway, New York, NY
+  chairmanCeo: Michael Nierenberg
+  employees2024: 6045
+  aum2024: $46.05 billion
+  revenue2024: $5.206 billion
+
+x-operating-businesses:
+  - name: Newrez
+    url: https://www.newrez.com
+    role: Residential mortgage originator and servicer (correspondent, wholesale, consumer-direct channels)
+    acquired: 2018 (as Shellpoint Partners, $190M); Caliber Home Loans acquired through Newrez in April 2021 ($1.675B)
+    portfolio: ~$878B servicing UPB (Oct 2025), including ~$282B third-party servicing
+    publicApi: false
+  - name: Genesis Capital
+    url: https://www.genesiscapital.com
+    role: Business-purpose lender to professional residential real-estate developers and investors
+    acquired: October 2021 (acquired from Goldman Sachs)
+    publicApi: false
+  - name: Sculptor Capital Management
+    url: https://www.sculptor.com
+    role: Global diversified alternative asset manager (multi-strategy, credit, real estate)
+    acquired: November 2023 ($719.8M; formerly Och-Ziff Capital Management)
+    aum: ~$34B (2024)
+    publicApi: false
+  - name: Rithm Property Trust
+    url: https://www.rithmpt.com
+    role: Externally-managed REIT (formerly Great Ajax) transitioning from RPL/NPL residential loans into commercial real estate
+    acquired: June 2024 (Rithm assumed external management of Great Ajax; subsequently rebranded to Rithm Property Trust)
+    publicApi: false
+  - name: Adoor
+    url: https://www.adoor.com
+    role: Single-family rental platform
+    publicApi: false
+  - name: Crestline Investors
+    url: https://www.crestlineinvestors.com
+    role: Institutional alternative investment manager (credit, opportunistic, beta solutions)
+    acquired: 2024 (majority stake)
+    publicApi: false
+  - name: Elecor Properties
+    url: https://www.paramount-group.com
+    role: Class-A office REIT (formerly Paramount Group, NYSE:PGRE; rebranded under Rithm)
+    publicApi: false
+  - name: Marcus Loans Portfolio
+    role: $1.4B consumer-loan portfolio acquired from Goldman Sachs (July 2023)
+    publicApi: false
+
+x-developer-surface:
+  publicApis: 0
+  openApiSpecs: 0
+  asyncApiSpecs: 0
+  webhooks: false
+  sdks: 0
+  cli: false
+  developerPortal: false
+  statusPage: false
+  rssFeed: false
+  publicGithubOrgs:
+    - org: newrez
+      url: https://github.com/newrez
+      publicRepos: 0
+      note: Exists but no public repositories
+    - org: rithmcap
+      url: https://github.com/rithmcap
+      exists: false
+  note: |
+    Rithm Capital and its operating businesses serve institutional capital-markets
+    counterparties and mortgage borrowers/servicers through traditional B2B
+    channels (loan-level data files, MISMO mortgage-industry data exchanges,
+    servicer-to-investor reporting). There is no public developer-facing API
+    program at any brand layer as of May 2026.
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
