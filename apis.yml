@@ -27,6 +27,17 @@ description: |
   with these businesses occurs through traditional B2B mortgage / capital-markets
   channels, not a public API surface.
 
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/api-evangelist
 created: 2025-05-05
 modified: 2026-05-23
