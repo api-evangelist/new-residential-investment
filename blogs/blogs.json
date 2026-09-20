@@ -1,0 +1,14 @@
+{
+  "repo": "new-residential-investment",
+  "feeds": [
+    {
+      "source": "https://www.rithmcap.com/news",
+      "feed_url": "https://www.rithmcap.com/news",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-19T20:17:39Z"
+}
