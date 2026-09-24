@@ -88,7 +88,7 @@ tags:
 - Private Credit
 - Commercial Real Estate
 - Single-Family Rental
-- Financial-Services
+- Financial Services
 - Fortune 1000
 tags_raw:
 - Mortgage REIT
@@ -103,6 +103,7 @@ tags_raw:
 - Single-Family Rental
 - Financial Services
 - Fortune 1000
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
