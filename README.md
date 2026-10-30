@@ -1,4 +1,4 @@
-# new-residential-investment
+# New Residential Investment Corp (Rithm Capital)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,66 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for **New Residential Investment Corp** in the API Evangelist network. Fortune 1000 (rank 861, prior to rebrand).
+New Residential Investment Corp (NYSE: NRZ) was a mortgage real estate investment trust (REIT) that **rebranded as Rithm Capital Corp (NYSE: RITM) in August 2022** to reflect its evolution from a pure mortgage REIT into a diversified global asset manager focused on real estate, credit, and financial services. Rithm Capital is headquartered in New York City, led by Chairman & CEO Michael Nierenberg, and as of 2024 reported approximately $46 billion in assets under management, ~$5.2 billion in revenue, and ~6,045 employees across its operating businesses (Newrez mortgage origination/servicing, Genesis Capital business-purpose lending, Sculptor Capital Management alternatives platform, Rithm Property Trust REIT [formerly Great Ajax], Adoor single-family rental, Crestline credit, and Elecor Properties [formerly Paramount Group] office real estate). This profile carries forward the legacy `new-residential-investment` repo identity under the API Evangelist network. The active corporate identity, public filings, and investor communications are at rithmcap.com. Rithm Capital and its subsidiaries operate as financial-services businesses serving institutional investors, mortgage borrowers, and real-estate sponsors. None of the public-facing Rithm Capital, Newrez, Genesis Capital, Sculptor, Rithm Property Trust, Adoor, Crestline, or Elecor Properties websites expose a public developer portal, OpenAPI specification, REST/GraphQL API, SDK, CLI, webhook system, status page, or RSS feed. There are no public GitHub organizations of substance for any of the brand surfaces (the `newrez` GitHub org exists with zero public repositories; `rithmcap` does not exist). Integration with these businesses occurs through traditional B2B mortgage / capital-markets channels, not a public API surface.
 
-> **Rebrand notice:** New Residential Investment Corp (NYSE: NRZ) **rebranded as Rithm Capital Corp (NYSE: RITM) on August 1, 2022**. All current corporate disclosures, investor materials, and operating-business activity are reported under Rithm Capital. This repo retains the legacy `new-residential-investment` identity for continuity with the API Evangelist network registry.
+**Areas:** Mortgage REIT · Real Estate Investment Trust · Asset Management · Mortgage Origination · Mortgage Servicing · Alternative Investments · Hedge Funds · Private Credit · Commercial Real Estate · Single-Family Rental · Financial Services · Fortune 1000
 
-## Company
+## New Residential Investment Corp (Rithm Capital) on APIs.io
 
-| Field | Value |
+Everything profiled for New Residential Investment Corp (Rithm Capital) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/new-residential-investment/](https://apis.io/providers/new-residential-investment/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Moved to /providers/new-residential-investment/](https://apis.io/graphqls/new-residential-investment/new-residential-investment-graphql/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [New Residential Investment Domain Security](https://apis.io/security/new-residential-investment/new-residential-investment-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rithmcap.com)
+- [Blog](https://www.rithmcap.com/news)
+
+## API Evangelist rating
+
+**Kin Score 4.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Legal name | Rithm Capital Corp |
-| Former name | New Residential Investment Corp |
-| Ticker | NYSE: RITM (formerly NRZ) |
-| Headquarters | 799 Broadway, New York, NY |
-| Chairman & CEO | Michael Nierenberg |
-| Founded | 2013 (spun out of Newcastle Investment Corp / Fortress) |
-| Rebrand date | August 1, 2022 |
-| Employees (2024) | ~6,045 |
-| AUM (2024) | ~$46.05 billion |
-| Revenue (2024) | ~$5.206 billion |
-| Website | <https://www.rithmcap.com> |
+| Discoverability | 52.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-## Operating businesses
+**Agent readiness 0.0** — human-only
 
-Rithm Capital is now a diversified global asset manager rather than a pure mortgage REIT. Its principal operating businesses:
-
-| Business | Role | Acquired |
-|---|---|---|
-| [Newrez](https://www.newrez.com) | Residential mortgage origination & servicing (~$878B servicing UPB) | 2018 (Shellpoint); Caliber Home Loans April 2021 ($1.675B) |
-| [Genesis Capital](https://www.genesiscapital.com) | Business-purpose lender to residential real-estate developers/investors | October 2021 (from Goldman Sachs) |
-| [Sculptor Capital Management](https://www.sculptor.com) | Global alternative asset manager (~$34B AUM); formerly Och-Ziff | November 2023 ($719.8M) |
-| [Rithm Property Trust](https://www.rithmpt.com) | Externally-managed REIT (formerly Great Ajax), transitioning to commercial real estate | June 2024 |
-| [Adoor](https://www.adoor.com) | Single-family rental platform | — |
-| [Crestline Investors](https://www.crestlineinvestors.com) | Institutional alternative investment manager | 2024 (majority stake) |
-| [Elecor Properties](https://www.paramount-group.com) | Class-A office REIT (formerly Paramount Group, NYSE:PGRE) | Rebranded under Rithm |
-| Marcus Loans portfolio | $1.4B consumer-loan portfolio | July 2023 (from Goldman Sachs) |
-
-## API surface
-
-**0 public APIs.** Rithm Capital and each of its operating businesses serve institutional capital-markets counterparties and mortgage borrowers through traditional B2B channels (loan-level data files, MISMO mortgage-industry data exchanges, servicer-to-investor reporting). There is no:
-
-- Public developer portal
-- OpenAPI / AsyncAPI specification
-- REST or GraphQL API
-- Webhook system
-- SDK or CLI
-- Public status page
-- RSS feed
-- Substantive public GitHub presence (the `newrez` org exists with zero public repos; `rithmcap` does not exist)
-
-## Artifacts in this repo
-
-| File | Purpose |
+| Agent-readiness dimension | Result |
 |---|---|
-| `apis.yml` | APIs.json 0.20 profile documenting the rebrand, corporate history, operating businesses, and the absence of a public developer surface |
-| `README.md` | This file |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-No `openapi/`, `asyncapi/`, `json-schema/`, `capabilities/`, `rules/`, `plans/`, `rate-limits/`, or `finops/` artifacts are generated — the provider exposes nothing to back them, and the API Evangelist pipeline does not emit empty placeholders.
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Sources
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/new-residential-investment/](https://apis.io/providers/new-residential-investment/).
 
-- Rithm Capital homepage: <https://www.rithmcap.com>
-- Wikipedia, _Rithm Capital_
-- Wikipedia, _Newrez_
-- Wikipedia, _Sculptor Capital Management_
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for New Residential Investment Corp (Rithm Capital): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/new-residential-investment/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
